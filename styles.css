@@ -1,0 +1,289 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-red: #dc2626;
+    --neutral-900: #0f172a;
+    --neutral-800: #1e293b;
+    --neutral-600: #475569;
+    --neutral-300: #cbd5e1;
+    --neutral-200: #e2e8f0;
+    --neutral-100: #f1f5f9;
+    --neutral-50: #f8fafc;
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    --spacing-2xl: 4rem;
+    --spacing-3xl: 6rem;
+}
+
+/* Base typography */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: var(--neutral-800);
+    background-color: #fff;
+}
+
+h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 800;
+    margin-bottom: var(--spacing-md);
+    color: var(--neutral-900);
+    background: linear-gradient(135deg, var(--neutral-900) 0%, var(--primary-red) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+    color: var(--neutral-900);
+}
+
+p {
+    font-size: 1.25rem;
+    color: var(--neutral-600);
+    margin: 0 auto var(--spacing-2xl);
+    max-width: 700px;
+    text-align: center;
+}
+
+/* Layout containers */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-sm);
+}
+
+/* Header */
+header {
+    background: white;
+    border-bottom: 1px solid var(--neutral-200);
+    padding: var(--spacing-xs) 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--neutral-900);
+}
+
+header img {
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Main sections - universal base */
+main {
+    overflow-x: hidden;
+}
+
+section {
+    padding: var(--spacing-3xl) 0;
+    position: relative;
+}
+
+/* Level 1: System-Level Theme Classes - Only 2 backgrounds */
+.theme-light {
+    background: white;
+}
+
+.theme-accent {
+    background: linear-gradient(135deg, var(--neutral-50) 0%, #ffffff 30%, rgba(220, 38, 38, 0.15) 100%);
+}
+
+/* Definition lists (values and approach) */
+dl {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-2xl);
+}
+
+dl div {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    padding: var(--spacing-lg);
+    border-radius: 16px;
+    border: 1px solid var(--neutral-200);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+dl div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-red) 0%, #ef4444 100%);
+}
+
+dl div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+dt {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: var(--spacing-sm);
+    color: var(--neutral-900);
+}
+
+dt svg {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, var(--primary-red) 0%, #ef4444 100%);
+    border-radius: 12px;
+    padding: 12px;
+    color: white;
+}
+
+dd {
+    color: var(--neutral-600);
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Level 2: Layout Pattern Classes */
+.layout-centered {
+    text-align: center;
+}
+
+.layout-centered dt {
+    flex-direction: column;
+    text-align: center;
+}
+
+.layout-grid-compact dl {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.layout-card-clean {
+    background: white;
+}
+
+.layout-icon-large dt svg {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, var(--neutral-100) 0%, var(--neutral-200) 100%);
+    color: var(--primary-red);
+    margin-bottom: var(--spacing-sm);
+}
+
+/* Principles Grid */
+.principles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: var(--spacing-md);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.principle-card {
+    padding: var(--spacing-lg);
+    background: white;
+    border: 1px solid var(--neutral-200);
+    border-radius: 12px;
+    color: var(--neutral-800);
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.principle-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Footer */
+footer {
+    background: white;
+    color: var(--neutral-600);
+    padding: var(--spacing-xl) 0;
+    text-align: center;
+    border-top: 1px solid var(--neutral-200);
+}
+
+footer p {
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    section {
+        padding: var(--spacing-2xl) 0;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    dl {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    dl div {
+        padding: var(--spacing-md);
+    }
+
+    .principles-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .principle-card {
+        padding: var(--spacing-md);
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        padding: var(--spacing-xl) 0;
+    }
+
+    dl div {
+        padding: var(--spacing-md);
+    }
+}
