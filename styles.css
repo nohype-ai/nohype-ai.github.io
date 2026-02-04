@@ -26,10 +26,16 @@ body {
 }
 
 main {
-    /* main uses horizontal layout */
+    /* responsive flex layout: wraps naturally when content doesn't fit */
     display: flex;
-    align-items: flex-start;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 36px 20px;  /* row-gap column-gap */
+    align-items: start;
+}
+
+main #content {
+    /* content grows to fill space, wraps on small screens */
+    flex: 1 1 300px;
 }
 
 footer {
