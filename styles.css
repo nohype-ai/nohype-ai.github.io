@@ -26,8 +26,13 @@ body {
     margin: 0px;
 }
 
+img {
+    /* image can neither grow nor shrink and wants its natural size */
+    flex: 0 0 auto;
+}
+
 main {
-    /* responsive flex layout: wraps naturally when content doesn't fit */
+    /* main uses responsive horizontal layout */
     display: flex;
     flex-wrap: wrap;
     gap: 36px 20px;  /* row-gap column-gap */
@@ -35,7 +40,7 @@ main {
 }
 
 main #content {
-    /* content grows to fill space, wraps on small screens */
+    /* content can grow and shrink but wants 300px size */
     flex: 1 1 300px;
 }
 
@@ -49,9 +54,16 @@ footer {
     left: 0;
     right: 0;
     
-    /* footer uses horizontal layout */
+    /* footer uses responsive horizontal layout */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    gap: 20px;
+}
+
+footer > div:first-child {
+    /* first footer element can neither grow nor shrink and wants 300px size */
+    flex: 0 0 300px;
 }
 
 a {
