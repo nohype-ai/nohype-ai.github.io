@@ -80,4 +80,6 @@ table {
 td {
     /* table cells are fully left-aligned */
     padding-left: 0;
+    /* table cells are top-aligned */
+    vertical-align: top;
 }
