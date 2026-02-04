@@ -37,6 +37,7 @@ main {
     flex-wrap: wrap;
     gap: 36px 20px;  /* row-gap column-gap */
     align-items: start;
+    padding-bottom: 100px; /* compensate for fixed footer */
 }
 
 main #content {
