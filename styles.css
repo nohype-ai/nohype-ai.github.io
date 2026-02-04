@@ -1,3 +1,9 @@
+:root {
+    --text-color: #fff;
+    --background-color: #303030;
+    --site-padding: 40px;
+}
+
 @font-face {
     font-family: 'SF Pro';
     src: url("fonts/SF-Pro-Text-Regular.otf") format("opentype");
@@ -10,12 +16,6 @@
     src: url("fonts/SF-Pro-Display-Bold.otf") format("opentype");
     font-weight: 700;
     font-style: normal;
-}
-
-:root {
-    --text-color: #fff;
-    --background-color: #303030;
-    --site-padding: 40px;
 }
 
 body {
