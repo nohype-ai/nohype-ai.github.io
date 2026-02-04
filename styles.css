@@ -14,13 +14,14 @@
 
 :root {
     --text-color: #fff;
+    --background-color: #303030;
     --site-padding: 40px;
 }
 
 body {
     font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, sans-serif;
     color: var(--text-color);
-    background-color: #303030;
+    background-color: var(--background-color);
     padding: var(--site-padding);
     margin: 0px;
 }
@@ -40,6 +41,7 @@ main #content {
 
 footer {
     padding: var(--site-padding);
+    background-color: var(--background-color);
 
     /* footer is fixed to the bottom of the screen */
     position: fixed;
