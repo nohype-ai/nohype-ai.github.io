@@ -3,7 +3,6 @@ const pages = {
         <h1 style="margin-top: -7px;">All AI.</h1>
         <h1>No Blabla.</h1>
         <h1><a href="mailto:hi@nohype.ai">hi@nohype.ai</a></h1>
-        <h1>&copy; Nohype AI GmbH</h1>
     `,
     imprint: `
         <h1 style="margin-top: -7px;">Imprint</h1>

@@ -1,10 +1,27 @@
+:root {
+    --text-color: #fff;
+    --site-padding: 40px;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    color: #fff;
+    color: var(--text-color);
     background-color: #303030;
-    margin: 40px;
+    padding: var(--site-padding);
+    margin: 0px;
 }
 
 a {
-    color: #fff;
+    /* links have no special color */
+    color: var(--text-color);
+}
+
+table {
+    /* table borders take up no space */
+    border-spacing: 0;
+}
+
+td {
+    /* table cells are fully left-aligned */
+    padding-left: 0;
 }
