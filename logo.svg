@@ -1,0 +1,6 @@
+<svg width="120" height="144" viewBox="0 0 120 144" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(0.13333333,0,0,-0.13333333,0,144)">
+    <path d="M 0,1080 H 180 L 900,360 V 0 L 180,720 V 0 H 0 Z" fill="#ffffff" />
+    <path d="M 720,1080 H 900 V 360 L 720,720 Z" fill="#ffffff" />
+  </g>
+</svg>
