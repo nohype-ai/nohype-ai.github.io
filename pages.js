@@ -1,0 +1,49 @@
+const pages = {
+    home: `
+        <h1 style="margin-top: -7px;">All AI.</h1>
+        <h1>No Blabla.</h1>
+        <h1><a href="mailto:hi@nohype.ai">hi@nohype.ai</a></h1>
+        <h1>&copy; Nohype AI GmbH</h1>
+    `,
+    imprint: `
+        <h1 style="margin-top: -7px;">Imprint</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Business Name</td>
+                    <td>Nohype AI GmbH</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>Baarerstrasse 107, 6300 Zug, Switzerland</td>
+                </tr>
+                <tr>
+                    <td>UID</td>
+                    <td>CHE-185.499.430</td>
+                </tr>
+                <tr>
+                    <td>Commercial Register</td>
+                    <td>Canton of Zug</td>
+                </tr>
+                <tr>
+                    <td>CH-ID</td>
+                    <td>CH-170-4023713-9</td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;">
+                        Owner & Managing Director
+                    </td>
+                    <td>Sebastian Fichtner</td>
+                </tr>
+                <tr>
+                    <td>Content Editor</td>
+                    <td>Sebastian Fichtner</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>hi@nohype.ai</td>
+                </tr>
+            </tbody>
+        </table>
+    `
+};
