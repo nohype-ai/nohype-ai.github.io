@@ -1,10 +1,24 @@
+@font-face {
+    font-family: 'SF Pro';
+    src: url("fonts/SF-Pro-Text-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro';
+    src: url("fonts/SF-Pro-Display-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
 :root {
     --text-color: #fff;
     --site-padding: 40px;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, sans-serif;
     color: var(--text-color);
     background-color: #303030;
     padding: var(--site-padding);
@@ -12,17 +26,22 @@ body {
 }
 
 main {
+    /* main uses horizontal layout */
     display: flex;
     align-items: flex-start;
     gap: 20px;
 }
 
 footer {
+    padding: var(--site-padding);
+
+    /* footer is fixed to the bottom of the screen */
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    padding: var(--site-padding);
+    
+    /* footer uses horizontal layout */
     display: flex;
     justify-content: space-between;
 }
