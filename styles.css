@@ -75,8 +75,16 @@ footer > div:first-child {
 
 a {
     /* links have no special color */
-    color: #fed800;
+    color: var(--text-color);
     text-decoration: none;
+}
+
+main a {
+    color: #fed800;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 a:focus-visible {
