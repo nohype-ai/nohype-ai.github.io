@@ -4,6 +4,33 @@ const pages = {
 <h1 style="margin-top: -7px;">all AI</h1>
 <h1>no Blabla</h1>
 <h1><a href="mailto:bla@nohype.ai">bla@nohype.ai</a></h1>
+<br><br><br><br>
+<div style="display: flex; gap: 80px; align-items: start; flex-wrap: wrap;">
+    <div style="max-width: 200px; text-align: center;">
+        <img src="images/team/manuela.jpg" alt="Manuela Hebel" style="max-width: 300px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto;">
+        <p>
+            Manuela Hebel<br>
+            Senior Consultant<br>
+            <a href="mailto:manuela@nohype.ai">manuela@nohype.ai</a><br><br>
+            <span style="display: flex; gap: 20px; justify-content: center;">
+                <a href="https://www.linkedin.com/in/manuelahebel" target="_blank"><img src="social-icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+                <a href="https://manuela-hebel.de" target="_blank"><img src="social-icons/globe2.svg" alt="Website" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+            </span>
+        </p>
+    </div>
+    <div style="max-width: 200px; text-align: center;">
+        <img src="images/team/sebastian squared.jpg" alt="Sebastian Fichtner" style="max-width: 300px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto;">
+        <p>
+            Sebastian Fichtner<br>
+            CEO, Software Architect<br>
+            <a href="mailto:sebastian@nohype.ai">sebastian@nohype.ai</a><br><br>
+            <span style="display: flex; gap: 20px; justify-content: center;">
+                <a href="https://github.com/codeface-io" target="_blank"><img src="social-icons/github.svg" alt="GitHub" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+                <a href="https://www.linkedin.com/in/codeface-io" target="_blank"><img src="social-icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+            </span>
+        </p>
+    </div>
+</div>
     `,
     "imprint": `
 <h1 style="margin-top: -7px;">Imprint</h1>
