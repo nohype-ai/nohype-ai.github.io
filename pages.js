@@ -13,8 +13,8 @@ const pages = {
             Co-Founder, AI Consultant<br>
             <a href="mailto:manuela@nohype.ai">manuela@nohype.ai</a><br><br>
             <span style="display: flex; gap: 20px; justify-content: center;">
-                <a href="https://www.linkedin.com/in/manuelahebel" target="_blank"><img src="social-icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
-                <a href="https://manuela-hebel.com/ueber-mich" target="_blank"><img src="social-icons/globe2.svg" alt="Website" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+                <a href="https://www.linkedin.com/in/manuelahebel" target="_blank"><img src="icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+                <a href="https://manuela-hebel.com/ueber-mich" target="_blank"><img src="icons/globe2.svg" alt="Website" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
             </span>
         </p>
     </div>
@@ -25,9 +25,9 @@ const pages = {
             Founder, AI Architect<br>
             <a href="mailto:sebastian@nohype.ai">sebastian@nohype.ai</a><br><br>
             <span style="display: flex; gap: 20px; justify-content: center;">
-                <a href="team/sebastian cv.pdf" target="_blank"><img src="social-icons/file-earmark-pdf.svg" alt="CV" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
-                <a href="https://github.com/codeface-io" target="_blank"><img src="social-icons/github.svg" alt="GitHub" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
-                <a href="https://www.linkedin.com/in/codeface-io" target="_blank"><img src="social-icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+                <a href="team/sebastian cv.pdf" target="_blank"><img src="icons/file-earmark-pdf.svg" alt="CV" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+                <a href="https://github.com/codeface-io" target="_blank"><img src="icons/github.svg" alt="GitHub" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+                <a href="https://www.linkedin.com/in/codeface-io" target="_blank"><img src="icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
             </span>
         </p>
     </div>
