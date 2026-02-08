@@ -7,7 +7,7 @@ const pages = {
 <br><br><br><br>
 <div style="display: flex; gap: 80px; align-items: start; flex-wrap: wrap;">
     <div style="max-width: 200px; text-align: center;">
-        <img src="images/team/manuela.jpg" alt="Manuela Hebel" style="max-width: 300px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto;">
+        <img src="team/manuela.jpg" alt="Manuela Hebel" style="max-width: 300px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto;">
         <p>
             Manuela Hebel<br>
             Senior Consultant<br>
@@ -19,12 +19,13 @@ const pages = {
         </p>
     </div>
     <div style="max-width: 200px; text-align: center;">
-        <img src="images/team/sebastian squared.jpg" alt="Sebastian Fichtner" style="max-width: 300px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto;">
+        <img src="team/sebastian.jpg" alt="Sebastian Fichtner" style="max-width: 300px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto;">
         <p>
             Sebastian Fichtner<br>
             CEO, Software Architect<br>
             <a href="mailto:sebastian@nohype.ai">sebastian@nohype.ai</a><br><br>
             <span style="display: flex; gap: 20px; justify-content: center;">
+                <a href="team/sebastian cv.pdf" target="_blank"><img src="social-icons/file-earmark-pdf.svg" alt="CV" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
                 <a href="https://github.com/codeface-io" target="_blank"><img src="social-icons/github.svg" alt="GitHub" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
                 <a href="https://www.linkedin.com/in/codeface-io" target="_blank"><img src="social-icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
             </span>
