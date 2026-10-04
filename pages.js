@@ -18,7 +18,7 @@ const pages = {
             </span>
         </p>
     </div>
-    <div style="max-width: 250px; text-align: center;">
+    <!--<div style="max-width: 250px; text-align: center;">
         <a href="https://www.linkedin.com/in/tintenklecks" target="_blank"><img src="team/ingo.jpg" alt="Ingo Böhme" style="max-width: 250px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
         <p>
             Ingo Böhme<br>
@@ -29,7 +29,7 @@ const pages = {
                 <a href="https://x.com/IBMobile" target="_blank"><img src="icons/twitter-x.svg" alt="X" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
             </span>
         </p>
-    </div>
+    </div>-->
     <div style="max-width: 250px; text-align: center;">
         <a href="team/sebastian-cv.pdf" target="_blank"><img src="team/sebastian.jpg" alt="Sebastian Fichtner" style="max-width: 250px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
         <p>
