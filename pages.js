@@ -39,7 +39,7 @@ const pages = {
             <span style="display: flex; gap: 20px; justify-content: center;">
                 <a href="https://www.linkedin.com/in/codeface-io" target="_blank"><img src="icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
                 <a href="team/sebastian-cv.pdf" target="_blank"><img src="icons/file-earmark-pdf.svg" alt="CV" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
-                <a href="https://github.com/codeface-io" target="_blank"><img src="icons/github.svg" alt="GitHub" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+                <a href="https://github.com/nohype-ai" target="_blank"><img src="icons/github.svg" alt="GitHub" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
             </span>
         </p>
     </div>
