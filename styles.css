@@ -3,6 +3,7 @@
 :root {
     --text-color: #fff;
     --background-color: #303030;
+    --accent-color: #fed800;
     --site-padding: 32px;
 }
 
@@ -45,7 +46,12 @@ body {
 }
 
 nav, main, footer {
+    /* one consistent padding */
     padding: var(--site-padding);
+}
+
+nav img {
+    width: 10px;
 }
 
 main {
@@ -65,20 +71,30 @@ footer {
     gap: 20px;
 }
 
+/* headings */
+
+h1 {
+    /* zero top margin for consistent predictable layout*/
+    margin-top:0;
+    font-size: 5rem;
+}
+
 /* links */
 
 a {
-    /* links have no special color */
+    /* links have no special color outside main */
     color: var(--text-color);
     text-decoration: none;
 }
 
 main a {
-    color: #fed800;
+    /* links have a special color */
+    color: var(--accent-color);
 }
 
 a:hover {
     text-decoration: underline;
+    color: var(--accent-color);
 }
 
 a:focus-visible {
