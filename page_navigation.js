@@ -8,9 +8,9 @@ function updateActiveLink() {
     links.forEach(link => {
         const linkPage = link.getAttribute('href').slice(1);
         if (linkPage === currentPage) {
-            link.classList.add('accentuated');
+            link.classList.add('selected');
         } else {
-            link.classList.remove('accentuated');
+            link.classList.remove('selected');
         }
     });
 }

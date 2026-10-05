@@ -87,19 +87,13 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-nav a.accentuated,
-footer a.accentuated {
-    text-decoration: underline;
-    /*color: var(--accent-color);*/
-}
-
 main a {
-    /*text-decoration: underline;*/
+    /* links are accentuated inside main */
     color: var(--accent-color);
+}
+
+a:hover, a.selected {
+    text-decoration: underline;
 }
 
 a:focus-visible {
