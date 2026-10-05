@@ -5,6 +5,7 @@
     --background-color: #303030;
     --accent-color: #fed800;
     --site-padding: 32px;
+    --grid-column-min-width: 20rem;
 }
 
 /* fonts */
@@ -63,6 +64,10 @@ main {
     flex: 1; /* fill the space between nav and footer */
 }
 
+section {
+    margin-bottom: 54px;
+}
+
 footer {
     /* footer uses responsive horizontal layout */
     display: flex;
@@ -71,12 +76,40 @@ footer {
     gap: 20px;
 }
 
+/* grids */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--grid-column-min-width), 1fr));
+    gap: var(--site-padding);
+    min-width: 0;
+}
+
+.grid-cell {
+    min-width: 0;
+    overflow-wrap: break-word;
+}
+
+.grid-cell > :first-child {
+    margin-top: 0;
+}
+
+.grid-cell > :last-child {
+    margin-bottom: 0;
+}
+
 /* headings */
 
 h1 {
     /* zero top margin for consistent predictable layout*/
     margin-top:0;
     font-size: 5rem;
+    line-height: 1.0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom:0.5rem;
 }
 
 /* links */
