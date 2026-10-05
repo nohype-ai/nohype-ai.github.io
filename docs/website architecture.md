@@ -20,7 +20,7 @@
 ## SPA
 
 - Links
-  - links that switch view inside the site point at `#home`, `#projects`, `#team`, `#imprint`, and so on
+  - links that switch view inside the site point at `#home`, `#software`, `#people`, `#imprint`, and so on
   - do not point them at a path like `/imprint` or `imprint`. There is no file there, and nothing rewrites that path to `index.html`
 
 ## Local Offline Testability

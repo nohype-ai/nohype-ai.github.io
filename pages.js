@@ -44,16 +44,7 @@ const pages = {
     </tbody>
 </table>
     `,
-    "projects": `
-<h1>We<br>Make<br>Things</h1>
-
-<h2><a href="https://codeface.io" target="_blank" rel="noopener noreferrer">Codeface</a></h2>
-<h2><a href="https://MacStack.dev" target="_blank" rel="noopener noreferrer">MacStack</a></h2>
-<h2><a href="https://omastack.dev" target="_blank" rel="noopener noreferrer">OmaStack</a></h2>
-<h2><a href="https://flowlistapp.com" target="_blank" rel="noopener noreferrer">Flowlist</a></h2>
-<h2><a href="https://olivemail.ai" target="_blank" rel="noopener noreferrer">Olive Mail</a></h2>
-    `,
-    "team": `
+    "people": `
 <div style="display: flex; gap: 80px; align-items: start; flex-wrap: wrap;">
     <div style="max-width: 200px; text-align: center;">
         <a href="team/sebastian-cv.pdf" target="_blank"><img src="team/sebastian.jpg" alt="Sebastian Fichtner" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
@@ -93,5 +84,14 @@ const pages = {
         </p>
     </div>-->
 </div>
+    `,
+    "software": `
+<h1>We<br>Make<br>Things</h1>
+
+<h2><a href="https://codeface.io" target="_blank" rel="noopener noreferrer">Codeface</a></h2>
+<h2><a href="https://MacStack.dev" target="_blank" rel="noopener noreferrer">MacStack</a></h2>
+<h2><a href="https://omastack.dev" target="_blank" rel="noopener noreferrer">OmaStack</a></h2>
+<h2><a href="https://flowlistapp.com" target="_blank" rel="noopener noreferrer">Flowlist</a></h2>
+<h2><a href="https://olivemail.ai" target="_blank" rel="noopener noreferrer">Olive Mail</a></h2>
     `,
 };
