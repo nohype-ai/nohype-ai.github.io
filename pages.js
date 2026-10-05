@@ -6,7 +6,7 @@ const pages = {
 <h2>
     What?<br>
     <a href="#services">
-        AI, Data, Architecture, Apple
+        AI, Architecture, Apple
     </a>
 </h2>
 <h2>
