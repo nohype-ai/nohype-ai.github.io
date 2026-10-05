@@ -80,6 +80,12 @@ footer > div:first-child {
     flex: 0 0 300px;
 }
 
+p,
+ul {
+    /* prose stays on one readable measure; cards bring their own width */
+    max-width: 65ch;
+}
+
 a {
     /* links have no special color */
     color: var(--text-color);
