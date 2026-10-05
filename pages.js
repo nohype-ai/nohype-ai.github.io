@@ -6,7 +6,7 @@ const pages = {
 <h2>
     What?<br>
     <a href="#services">
-        AI, Data, Apple
+        AI, Data, Architecture, Apple
     </a>
 </h2>
 <h2>
@@ -110,6 +110,12 @@ const pages = {
 <h2>Data Engineering</h2>
 <p>
     At the heart of AI is data. Most uses cases in business intelligence and automation surprisingly don't need "AI" in the modern sense but actually require classic methods of data science.
+</p>
+
+<h2>Software Architecture</h2>
+<p>
+    The key to agentic productivity is agentic quality assurance. For agents to accomplish big things without our help, they need an environment that guides them towards actual business objectives.
+    <!--Architecture is the art of abstraction and overview - of putting all the puzzle pieces together, across languages, domains, people and cultures. In the age of AI we need systems that guide agents to produce consistent, predicatable, inspectable, and maintainable software.-->
 </p>
 
 <h2>Apple Engineering</h2>
