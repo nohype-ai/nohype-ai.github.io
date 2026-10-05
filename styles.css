@@ -87,13 +87,18 @@ a {
     text-decoration: none;
 }
 
-main a {
-    /* links have a special color */
-    color: var(--accent-color);
-}
-
 a:hover {
     text-decoration: underline;
+}
+
+nav a.accentuated,
+footer a.accentuated {
+    text-decoration: underline;
+    /*color: var(--accent-color);*/
+}
+
+main a {
+    /*text-decoration: underline;*/
     color: var(--accent-color);
 }
 

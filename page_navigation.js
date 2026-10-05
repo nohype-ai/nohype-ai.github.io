@@ -4,13 +4,13 @@ function getPageHash() {
 
 function updateActiveLink() {
     const currentPage = getPageHash();
-    const links = document.querySelectorAll('footer a[href^="#"]');
+    const links = document.querySelectorAll('nav a[href^="#"], footer a[href^="#"]');
     links.forEach(link => {
         const linkPage = link.getAttribute('href').slice(1);
         if (linkPage === currentPage) {
-            link.style.textDecoration = 'underline';
+            link.classList.add('accentuated');
         } else {
-            link.style.textDecoration = '';
+            link.classList.remove('accentuated');
         }
     });
 }
