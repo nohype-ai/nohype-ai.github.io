@@ -15,7 +15,7 @@ A simple true **system** that applies throughout the whole site and is in itself
 
 ## Responsiveness Rules
 
-- general goal: use innate grid capabilities of modern CSS and HTML, avoid media queries for responsiveness
+- goal: use innate grid capabilities of modern CSS and HTML, avoid media queries for responsiveness
 - Responsiveness comes from the layout shapes themselves. The same markup and the same rules apply at every width.
 - Size a page measure, a stack, a row, and a grid from the space they have and from the scale. A track minimum lets a grid wrap. A maximum caps the page measure. Items shrink inside that space.
 - No second layout in `@media`.
