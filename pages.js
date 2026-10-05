@@ -144,12 +144,12 @@ const pages = {
     </div>-->
 </section>
 
-<h2>
+<!--<h2>
     Say Hi<br>
     <a href="mailto:hi@nohype.ai">
         hi@nohype.ai
     </a>
-</h2>
+</h2>-->
     `,
     "software": `
 <h1>we<br>make<br>things</h1>
