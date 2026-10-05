@@ -122,6 +122,8 @@ const pages = {
 <p>
     Apple platforms are excellent at local AI. And we are excellent at developing for Apple platforms. We build state of the art iOS and macOS applications, including remote- and local AI features.
 </p>
+
+<h2>Say <a href="mailto:hi@nohype.ai">hi@nohype.ai</a></h2>
     `,
     "software": `
 <h1>we<br>make<br>things</h1>
