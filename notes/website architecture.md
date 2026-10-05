@@ -13,6 +13,7 @@
 - the tech is vanilla html, css and JS
   - no 3rd party frameworks
   - no 3rd party remote content or services
+- css remains [simple and theme-like](working%20with%20css.md)
 - we use no cookies, neither 1st nor 3rd party
 - we may use local storage
 
