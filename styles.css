@@ -1,8 +1,12 @@
+/* basic variables */
+
 :root {
     --text-color: #fff;
     --background-color: #303030;
-    --site-padding: 40px;
+    --site-padding: 32px;
 }
+
+/* fonts */
 
 @font-face {
     font-family: 'SF Pro';
@@ -24,24 +28,24 @@
     font-display: swap;
 }
 
+/* basic page components */
+
 body {
     font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, sans-serif;
     color: var(--text-color);
     background-color: var(--background-color);
-    padding: var(--site-padding);
     margin: 0px;
+
+    /* short pages still end at the bottom of the viewport */
+    box-sizing: border-box;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
 }
 
-main > img {
-    /* logo can neither grow nor shrink and wants its natural size */
-    flex: 0 0 auto;
-}
-
-#content img {
-    /* content images scale correctly within their containers */
-    width: 100%;
-    height: auto;
-    display: block;
+nav, main, footer {
+    padding: var(--site-padding);
 }
 
 main {
@@ -50,24 +54,10 @@ main {
     flex-wrap: wrap;
     gap: 36px 20px;  /* row-gap column-gap */
     align-items: start;
-    padding-bottom: 100px; /* compensate for fixed footer */
-}
-
-main #content {
-    /* content can grow and shrink but wants 300px size */
-    flex: 1 1 300px;
+    flex: 1; /* fill the space between nav and footer */
 }
 
 footer {
-    padding: var(--site-padding);
-    background-color: var(--background-color);
-
-    /* footer is fixed to the bottom of the screen */
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    
     /* footer uses responsive horizontal layout */
     display: flex;
     flex-wrap: wrap;
@@ -75,16 +65,7 @@ footer {
     gap: 20px;
 }
 
-footer > div:first-child {
-    /* first footer element can neither grow nor shrink and wants 300px size */
-    flex: 0 0 300px;
-}
-
-p,
-ul {
-    /* prose stays on one readable measure; cards bring their own width */
-    max-width: 65ch;
-}
+/* links */
 
 a {
     /* links have no special color */
@@ -105,6 +86,8 @@ a:focus-visible {
     outline-offset: 5px;
     border-radius: 5px;
 }
+
+/* tables */
 
 table {
     /* table borders take up no space */
