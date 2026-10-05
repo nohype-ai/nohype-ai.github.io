@@ -3,9 +3,18 @@ const pages = {
     "home": `
 <h1>all AI<br>no blabla<br><a href="mailto:bla@nohype.ai">bla@nohype.ai</a></h1>
 
-<p>We engineer AI systems, consult on what is worth building and what should be integrated instead, and train the people who will run them.
-
-<p>We start from an outcome you can measure, and we can fix the price before any UX or architecture work. You own all created code.</p>
+<h2>
+    What?<br>
+    <a href="#services">
+        AI, Data, Apple
+    </a>
+</h2>
+<h2>
+    How?<br>
+    <a href="#services">
+        Consulting, Training, Engineering
+    </a>
+</h2>
     `,
     "imprint": `
 <h1>Imprint</h1>
@@ -84,6 +93,29 @@ const pages = {
         </p>
     </div>-->
 </div>
+    `,
+    "services": `
+<h1>@<br>your<br>service</h1>
+
+<h2>Agentic Engineering</h2>
+<p>
+    We don't "vibe code" products. Our AI-driven development process is built from engineering discipline. The result is an incredible pace that sustains long-term and produces quality maintainable software.
+</p>
+
+<h2>AI Engineering</h2>
+<p>
+    We don't just use AI to build software, we also build software that uses AI: intelligent features and interfaces that unlock new types of products, services and business models.
+</p>
+
+<h2>Data Engineering</h2>
+<p>
+    At the heart of AI is data. Most uses cases in business intelligence and automation surprisingly don't need "AI" in the modern sense but actually require classic methods of data science.
+</p>
+
+<h2>Apple Engineering</h2>
+<p>
+    Apple platforms are excellent at local AI. And we are excellent at developing for Apple platforms. We build state of the art iOS and macOS applications, including remote- and local AI features.
+</p>
     `,
     "software": `
 <h1>we<br>make<br>things</h1>
