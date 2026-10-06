@@ -69,10 +69,16 @@ const pages = {
             Sebastian Fichtner<br>
             AI, Architecture, Apple<br>
             <a href="mailto:sebastian@nohype.ai">sebastian@nohype.ai</a><br><br>
-            <span style="display: flex; gap: 20px; justify-content: center;">
-                <a href="https://www.linkedin.com/in/codeface-io" target="_blank"><img src="icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
-                <a href="team/sebastian-cv.pdf" target="_blank"><img src="icons/file-earmark-pdf.svg" alt="CV" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
-                <a href="https://github.com/nohype-ai" target="_blank"><img src="icons/github.svg" alt="GitHub" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+            <span style="display: flex; gap: 32px; justify-content: center;">
+                <a href="team/sebastian-cv.pdf" target="_blank">
+                    <img src="icons/file-earmark-pdf.svg" alt="CV" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
+                </a>
+                <a href="https://www.linkedin.com/in/codeface-io" target="_blank">
+                    <img src="icons/linkedin.svg" alt="LinkedIn" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
+                </a>
+                <!--<a href="https://github.com/nohype-ai" target="_blank">
+                    <img src="icons/github.svg" alt="GitHub" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
+                </a>-->
             </span>
         </p>
     </div>
@@ -82,9 +88,13 @@ const pages = {
             Manuela Hebel<br>
             Data Strategy, Product<br>
             <a href="mailto:manuela@nohype.ai">manuela@nohype.ai</a><br><br>
-            <span style="display: flex; gap: 20px; justify-content: center;">
-                <a href="https://www.linkedin.com/in/manuelahebel" target="_blank"><img src="icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
-                <a href="https://manuela-hebel.com/ueber-mich" target="_blank"><img src="icons/globe2.svg" alt="Website" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+            <span style="display: flex; gap: 32px; justify-content: center;">
+                <a href="https://manuela-hebel.com/ueber-mich" target="_blank">
+                    <img src="icons/globe2.svg" alt="Website" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
+                </a>
+                <a href="https://www.linkedin.com/in/manuelahebel" target="_blank">
+                    <img src="icons/linkedin.svg" alt="LinkedIn" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
+                </a>
             </span>
         </p>
     </div>
@@ -94,9 +104,9 @@ const pages = {
             Ingo Böhme<br>
             Consultant, AI Architect<br>
             <a href="mailto:ingo@nohype.ai">ingo@nohype.ai</a><br><br>
-            <span style="display: flex; gap: 20px; justify-content: center;">
-                <a href="https://www.linkedin.com/in/tintenklecks" target="_blank"><img src="icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
-                <a href="https://x.com/IBMobile" target="_blank"><img src="icons/twitter-x.svg" alt="X" style="width: 24px; height: 24px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+            <span style="display: flex; gap: 32px; justify-content: center;">
+                <a href="https://www.linkedin.com/in/tintenklecks" target="_blank"><img src="icons/linkedin.svg" alt="LinkedIn" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+                <a href="https://x.com/IBMobile" target="_blank"><img src="icons/twitter-x.svg" alt="X" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
             </span>
         </p>
     </div>-->
