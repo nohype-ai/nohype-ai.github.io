@@ -108,6 +108,12 @@ footer {
     margin-bottom: 0;
 }
 
+.grid p {
+    /* paragraphs in a grid are set in Blocksatz; the last line stays at the start */
+    text-align: justify;
+    hyphens: auto;
+}
+
 /* headings */
 
 h1 {
