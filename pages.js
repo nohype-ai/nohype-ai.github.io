@@ -64,13 +64,13 @@ const pages = {
 
 <div style="display: flex; gap: 80px; align-items: start; flex-wrap: wrap;">
     <div style="max-width: 200px; text-align: center;">
-        <a href="team/sebastian-cv.pdf" target="_blank"><img src="team/sebastian.jpg" alt="Sebastian Fichtner" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
+        <a href="people/sebastian-cv.pdf" target="_blank"><img src="people/sebastian.jpg" alt="Sebastian Fichtner" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
         <p>
             Sebastian Fichtner<br>
             AI, Architecture, Apple<br>
             <a href="mailto:sebastian@nohype.ai">sebastian@nohype.ai</a><br><br>
             <span style="display: flex; gap: 32px; justify-content: center;">
-                <a href="team/sebastian-cv.pdf" target="_blank">
+                <a href="people/sebastian-cv.pdf" target="_blank">
                     <img src="icons/file-earmark-pdf.svg" alt="CV" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
                 </a>
                 <a href="https://www.linkedin.com/in/codeface-io" target="_blank">
@@ -83,7 +83,7 @@ const pages = {
         </p>
     </div>
     <div style="max-width: 200px; text-align: center;">
-        <a href="https://www.linkedin.com/in/manuelahebel" target="_blank"><img src="team/manuela.jpg" alt="Manuela Hebel" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
+        <a href="https://www.linkedin.com/in/manuelahebel" target="_blank"><img src="people/manuela.jpg" alt="Manuela Hebel" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
         <p>
             Manuela Hebel<br>
             Data Strategy, Product<br>
@@ -99,7 +99,7 @@ const pages = {
         </p>
     </div>
     <div style="max-width: 200px; text-align: center;">
-        <a href="https://www.linkedin.com/in/tintenklecks" target="_blank"><img src="team/ingo.jpg" alt="Ingo Böhme" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
+        <a href="https://www.linkedin.com/in/tintenklecks" target="_blank"><img src="people/ingo.jpg" alt="Ingo Böhme" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
         <p>
             Ingo Böhme<br>
             Consultant, AI, Apple<br>
