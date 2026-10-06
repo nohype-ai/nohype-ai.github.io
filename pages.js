@@ -98,18 +98,22 @@ const pages = {
             </span>
         </p>
     </div>
-    <!--<div style="max-width: 250px; text-align: center;">
+    <div style="max-width: 250px; text-align: center;">
         <a href="https://www.linkedin.com/in/tintenklecks" target="_blank"><img src="team/ingo.jpg" alt="Ingo Böhme" style="max-width: 250px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
         <p>
             Ingo Böhme<br>
-            Consultant, AI Architect<br>
+            Consultant, AI, Apple<br>
             <a href="mailto:ingo@nohype.ai">ingo@nohype.ai</a><br><br>
             <span style="display: flex; gap: 32px; justify-content: center;">
-                <a href="https://www.linkedin.com/in/tintenklecks" target="_blank"><img src="icons/linkedin.svg" alt="LinkedIn" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
-                <a href="https://x.com/IBMobile" target="_blank"><img src="icons/twitter-x.svg" alt="X" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);"></a>
+                <a href="https://www.linkedin.com/in/tintenklecks" target="_blank">
+                    <img src="icons/linkedin.svg" alt="LinkedIn" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
+                </a>
+                <!--<a href="https://x.com/IBMobile" target="_blank">
+                    <img src="icons/twitter-x.svg" alt="X" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
+                </a>-->
             </span>
         </p>
-    </div>-->
+    </div>
 </div>
     `,
     "services": `
@@ -205,6 +209,13 @@ const pages = {
         <h2><a href="https://olivemail.ai" target="_blank" rel="noopener noreferrer">olivemail.ai</a></h2>
         <p>
             Olive Mail turns existing email accounts into context for agents. A local CLI lets agents read, draft, and send (if permitted), without touching credentials.
+        </p>
+    </div>
+
+    <div class="grid-cell">
+        <h2><a href="https://puco.app" target="_blank" rel="noopener noreferrer">puco.app</a></h2>
+        <p>
+            PUCO helps managing AI prompts in the browser across Apple platforms. Expert prompts, smart forms, and one fast workflow. On the Mac App Store.
         </p>
     </div>
 </section>
