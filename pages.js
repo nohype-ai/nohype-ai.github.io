@@ -15,12 +15,6 @@ const pages = {
         Consulting, Training, Engineering
     </a>
 </h2>
-<!--<h2>
-    Why?<br>
-    <a href="#people">
-        AI needs Nohype to be fantastic
-    </a>
-</h2>-->
     `,
     "imprint": `
 <h1>Imprint</h1>
@@ -71,7 +65,7 @@ const pages = {
             <a href="mailto:sebastian@nohype.ai">sebastian@nohype.ai</a><br><br>
             <span style="display: flex; gap: 32px; justify-content: center;">
                 <a href="people/sebastian-cv.pdf" target="_blank">
-                    <img src="icons/file-earmark-pdf.svg" alt="CV" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
+                    <img src="icons/file-earmark-pdf.svg" alt="Sebastian Fichtner CV" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
                 </a>
                 <a href="https://www.linkedin.com/in/codeface-io" target="_blank">
                     <img src="icons/linkedin.svg" alt="LinkedIn" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
@@ -83,28 +77,34 @@ const pages = {
         </p>
     </div>
     <div style="max-width: 200px; text-align: center;">
-        <a href="https://www.linkedin.com/in/manuelahebel" target="_blank"><img src="people/manuela.jpg" alt="Manuela Hebel" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
+        <a href="people/manuela-cv.pdf" target="_blank"><img src="people/manuela.jpg" alt="Manuela Hebel" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
         <p>
             Manuela Hebel<br>
             Data Strategy, Product<br>
             <a href="mailto:manuela@nohype.ai">manuela@nohype.ai</a><br><br>
             <span style="display: flex; gap: 32px; justify-content: center;">
+                <a href="people/manuela-cv.pdf" target="_blank">
+                    <img src="icons/file-earmark-pdf.svg" alt="Manuela Hebel CV" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
+                </a>
                 <a href="https://manuela-hebel.com/ueber-mich" target="_blank">
                     <img src="icons/globe2.svg" alt="Website" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
                 </a>
-                <a href="https://www.linkedin.com/in/manuelahebel" target="_blank">
+                <!--<a href="https://www.linkedin.com/in/manuelahebel" target="_blank">
                     <img src="icons/linkedin.svg" alt="LinkedIn" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
-                </a>
+                </a>-->
             </span>
         </p>
     </div>
     <div style="max-width: 200px; text-align: center;">
-        <a href="https://www.linkedin.com/in/tintenklecks" target="_blank"><img src="people/ingo.jpg" alt="Ingo Böhme" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
+        <a href="people/ingo-cv.pdf" target="_blank"><img src="people/ingo.jpg" alt="Ingo Böhme" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
         <p>
             Ingo Böhme<br>
-            Consultant, AI, Apple<br>
+            Consultant: AI, Apple<br>
             <a href="mailto:ingo@nohype.ai">ingo@nohype.ai</a><br><br>
             <span style="display: flex; gap: 32px; justify-content: center;">
+                <a href="people/ingo-cv.pdf" target="_blank">
+                    <img src="icons/file-earmark-pdf.svg" alt="Ingo Böhme CV" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
+                </a>
                 <a href="https://www.linkedin.com/in/tintenklecks" target="_blank">
                     <img src="icons/linkedin.svg" alt="LinkedIn" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
                 </a>
@@ -155,23 +155,7 @@ const pages = {
             Apple platforms are excellent at local AI. And we are excellent at developing for Apple platforms. We build state of the art iOS and macOS applications, including remote- and local AI features.
         </p>
     </div>
-
-    <!--<div class="grid-cell">
-        <h2>Say Hi!</h2>
-        <h2>
-            <a href="mailto:hi@nohype.ai">
-                hi@nohype.ai
-            </a>
-        </h2>
-    </div>-->
 </section>
-
-<!--<h2>
-    Say Hi<br>
-    <a href="mailto:hi@nohype.ai">
-        hi@nohype.ai
-    </a>
-</h2>-->
     `,
     "tools": `
 <h1>we<br>make<br>things</h1>
