@@ -61,7 +61,7 @@ const pages = {
         <a href="people/sebastian-cv.pdf" target="_blank"><img src="people/sebastian.jpg" alt="Sebastian Fichtner" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
         <p>
             <b>Sebastian Fichtner</b><br>
-            Founder & CEO<br>
+            Founder<br>
             AI, Architecture, Apple<br>
             <a href="mailto:sebastian@nohype.ai">sebastian@nohype.ai</a><br><br>
             <span style="display: flex; gap: 16px; justify-content: center;">
@@ -79,7 +79,7 @@ const pages = {
     </div>
     <div style="max-width: 200px; text-align: center;">
         <a href="people/manuela-cv.pdf" target="_blank"><img src="people/manuela.jpg" alt="Manuela Hebel" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
-        <br>
+        <p>
             <b>Manuela Hebel</b><br>
             Partner<br>
             Data & Product Strategy<br>
