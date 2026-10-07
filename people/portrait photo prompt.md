@@ -1,1 +1,0 @@
-half-body portrait, half-length portrait, "Man", wearing high quality grey merino pull over, warm soft natural lighting, depth of field, blurred bright white modern loft studio background, bokeh, cinematic lighting, hyper-realistic, skin texture details, "approachable smile"
