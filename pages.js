@@ -102,7 +102,7 @@ const pages = {
         <p>
             <b>Ingo Böhme</b><br>
             Partner<br>
-            AI Engineering, Apple<br>
+            AI & Apple Engineering<br>
             <a href="mailto:ingo@nohype.ai">ingo@nohype.ai</a><br><br>
             <span style="display: flex; gap: 16px; justify-content: center;">
                 <a href="people/ingo-cv.pdf" target="_blank">
