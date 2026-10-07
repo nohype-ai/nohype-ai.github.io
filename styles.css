@@ -85,6 +85,26 @@ section {
     margin-bottom: 54px;
 }
 
+/* funny logo hover effect */
+
+@property --logo-turn {
+    /* an angle, so 360deg can ease back to 0deg; the matrix of both is the same */
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+}
+
+nav img {
+    --logo-turn: 0deg;
+    transform: rotate(var(--logo-turn));
+    transition: --logo-turn 1s ease;
+}
+
+nav img:hover {
+    /* one full clockwise turn; leaving reverses it from wherever it is */
+    --logo-turn: 360deg;
+}
+
 /* grids */
 
 .grid {
