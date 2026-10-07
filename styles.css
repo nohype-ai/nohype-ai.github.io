@@ -51,14 +51,21 @@ nav, main, footer {
     padding: var(--site-padding);
 }
 
-nav {
+nav,
+nav > span,
+footer,
+footer > span {
+    /* horizontal bar */
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
+    gap: var(--site-padding);
+    row-gap: 1rem;
 }
 
-nav > a:last-of-type {
-    margin-left: auto;
+nav, footer {
+    /* align left/right */
+    justify-content: space-between;
 }
 
 nav img {
@@ -76,14 +83,6 @@ main {
 
 section {
     margin-bottom: 54px;
-}
-
-footer {
-    /* footer uses responsive horizontal layout */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
 }
 
 /* grids */
