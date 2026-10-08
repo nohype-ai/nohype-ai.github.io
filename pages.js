@@ -6,13 +6,13 @@ const pages = {
 <h2>
     What?<br>
     <a href="#services">
-        AI ⬩ Architecture ⬩ Apple
+        AI · Architecture · Apple
     </a>
 </h2>
 <h2>
     How?<br>
     <a href="#services">
-        Consulting ⬩ Training ⬩ Engineering
+        Consulting · Training · Engineering
     </a>
 </h2>
     `,
