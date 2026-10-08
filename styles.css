@@ -69,7 +69,7 @@ nav, footer {
 }
 
 nav img {
-    width: 10px;
+    width: 11.3px;
 }
 
 main {
@@ -97,12 +97,12 @@ section {
 nav img {
     --logo-turn: 0deg;
     transform: rotate(var(--logo-turn));
-    transition: --logo-turn 1s ease;
+    transition: --logo-turn 0.5s ease;
 }
 
 nav img:hover {
     /* one full clockwise turn; leaving reverses it from wherever it is */
-    --logo-turn: 360deg;
+    --logo-turn: -180deg;
 }
 
 /* grids */

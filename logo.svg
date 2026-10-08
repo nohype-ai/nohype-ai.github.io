@@ -1,6 +1,6 @@
-<svg width="120" height="144" viewBox="0 0 120 144" xmlns="http://www.w3.org/2000/svg">
-  <g transform="matrix(0.13333333,0,0,-0.13333333,0,144)">
-    <path d="M 0,1080 H 180 L 900,360 V 0 L 180,720 V 0 H 0 Z" fill="#ffffff" />
-    <path d="M 720,1080 H 900 V 360 L 720,720 Z" fill="#ffffff" />
-  </g>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108">
+  <path d="M18 0 L36 0 L18 108 L0 108 Z" fill="#ffffff" />
+  <path d="M36 0 L54 108 L72 108 L54 0 Z" fill="#ffffff" />
+  <path d="M72 108 L90 108 L108 0 L90 0 Z" fill="#ffffff" />
 </svg>
