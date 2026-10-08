@@ -6,13 +6,13 @@ const pages = {
 <h2>
     What?<br>
     <a href="#services">
-        AI • Architecture • Apple
+        AI ⬩ Architecture ⬩ Apple
     </a>
 </h2>
 <h2>
     How?<br>
     <a href="#services">
-        Consulting • Training • Engineering
+        Consulting ⬩ Training ⬩ Engineering
     </a>
 </h2>
     `,
@@ -57,32 +57,10 @@ const pages = {
 <h1>AI<br>role<br>models</h1>
 
 <div style="display: flex; gap: 80px; align-items: start; flex-wrap: wrap;">
-    <div style="max-width: 200px; text-align: center;">
-        <a href="people/sebastian-cv.pdf" target="_blank"><img src="people/sebastian.jpg" alt="Sebastian Fichtner" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
-        <br>
-        <p>
-            <b>Sebastian Fichtner</b><br>
-            Founder<br>
-            AI, Architecture, Apple<br>
-            <a href="mailto:sebastian@nohype.ai">sebastian@nohype.ai</a><br><br>
-            <span style="display: flex; gap: 16px; justify-content: center;">
-                <a href="people/sebastian-cv.pdf" target="_blank">
-                    <img src="icons/file-earmark-pdf.svg" alt="Sebastian Fichtner CV" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
-                </a>
-                <a href="https://www.linkedin.com/in/codeface-io" target="_blank">
-                    <img src="icons/linkedin.svg" alt="LinkedIn" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
-                </a>
-                <!--<a href="https://github.com/nohype-ai" target="_blank">
-                    <img src="icons/github.svg" alt="GitHub" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
-                </a>-->
-            </span>
-        </p>
-    </div>
-    <div style="max-width: 200px; text-align: center;">
+    <div style="max-width: 250px; text-align: center;">
         <a href="people/manuela-cv.pdf" target="_blank"><img src="people/manuela.jpg" alt="Manuela Hebel" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
-        <br>
         <p>
-            <b>Manuela Hebel</b><br>
+            <h2>Manuela Hebel</h2>
             Partner<br>
             Data & Product Strategy<br>
             <a href="mailto:manuela@nohype.ai">manuela@nohype.ai</a><br><br>
@@ -99,11 +77,30 @@ const pages = {
             </span>
         </p>
     </div>
-    <div style="max-width: 200px; text-align: center;">
-        <a href="people/ingo-cv.pdf" target="_blank"><img src="people/ingo.jpg" alt="Ingo Böhme" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
-        <br>
+    <div style="max-width: 250px; text-align: center;">
+        <a href="people/sebastian-cv.pdf" target="_blank"><img src="people/sebastian.jpg" alt="Sebastian Fichtner" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
         <p>
-            <b>Ingo Böhme</b><br>
+            <h2>Sebastian Fichtner</h2>
+            Founder<br>
+            AI, Architecture, Apple<br>
+            <a href="mailto:sebastian@nohype.ai">sebastian@nohype.ai</a><br><br>
+            <span style="display: flex; gap: 16px; justify-content: center;">
+                <a href="people/sebastian-cv.pdf" target="_blank">
+                    <img src="icons/file-earmark-pdf.svg" alt="Sebastian Fichtner CV" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
+                </a>
+                <a href="https://www.linkedin.com/in/codeface-io" target="_blank">
+                    <img src="icons/linkedin.svg" alt="LinkedIn" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
+                </a>
+                <!--<a href="https://github.com/nohype-ai" target="_blank">
+                    <img src="icons/github.svg" alt="GitHub" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
+                </a>-->
+            </span>
+        </p>
+    </div>
+    <div style="max-width: 250px; text-align: center;">
+        <a href="people/ingo-cv.pdf" target="_blank"><img src="people/ingo.jpg" alt="Ingo Böhme" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
+        <p>
+            <h2>Ingo Böhme</h2>
             Partner<br>
             AI & Apple Engineering<br>
             <a href="mailto:ingo@nohype.ai">ingo@nohype.ai</a><br><br>
