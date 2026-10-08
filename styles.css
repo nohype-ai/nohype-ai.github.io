@@ -30,10 +30,27 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Literata';
+    src: url("fonts/Literata/Literata[opsz,wght].ttf") format("truetype");
+    font-weight: 200 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url("fonts/Satoshi/Fonts/WEB/fonts/Satoshi-Variable.woff2") format("woff2");
+    font-weight: 300 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* basic page components */
 
 body {
-    font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Satoshi', 'SF Pro', sans-serif;
+    font-weight: 400;
     color: var(--text-color);
     background-color: var(--background-color);
     margin: 0px;
@@ -138,12 +155,19 @@ nav img:hover {
 h1 {
     /* zero top margin for consistent predictable layout*/
     margin-top:0;
+    margin-bottom: 5rem;
+    font-family: 'Literata', 'Satoshi', serif;
+    font-weight: 300;
+    font-optical-sizing: auto;
     font-size: 5rem;
-    line-height: 1.0;
+    line-height: 0.9;
+    /*letter-spacing: -3px;*/
 }
 
 h2 {
-    font-size: 2rem;
+    font-family: 'Satoshi', 'SF Pro', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
     margin-bottom:0.5rem;
 }
 
@@ -168,6 +192,12 @@ a:focus-visible {
     outline: 1px solid var(--text-color);
     outline-offset: 5px;
     border-radius: 5px;
+}
+
+/* paragraphs */
+
+p {
+    margin-top: 0;
 }
 
 /* tables */

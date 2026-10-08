@@ -6,13 +6,13 @@ const pages = {
 <h2>
     What?<br>
     <a href="#services">
-        AI, Architecture, Apple
+        AI • Architecture • Apple
     </a>
 </h2>
 <h2>
     How?<br>
     <a href="#services">
-        Consulting, Training, Engineering
+        Consulting • Training • Engineering
     </a>
 </h2>
     `,
@@ -59,6 +59,7 @@ const pages = {
 <div style="display: flex; gap: 80px; align-items: start; flex-wrap: wrap;">
     <div style="max-width: 200px; text-align: center;">
         <a href="people/sebastian-cv.pdf" target="_blank"><img src="people/sebastian.jpg" alt="Sebastian Fichtner" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
+        <br>
         <p>
             <b>Sebastian Fichtner</b><br>
             Founder<br>
@@ -79,6 +80,7 @@ const pages = {
     </div>
     <div style="max-width: 200px; text-align: center;">
         <a href="people/manuela-cv.pdf" target="_blank"><img src="people/manuela.jpg" alt="Manuela Hebel" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
+        <br>
         <p>
             <b>Manuela Hebel</b><br>
             Partner<br>
@@ -99,6 +101,7 @@ const pages = {
     </div>
     <div style="max-width: 200px; text-align: center;">
         <a href="people/ingo-cv.pdf" target="_blank"><img src="people/ingo.jpg" alt="Ingo Böhme" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
+        <br>
         <p>
             <b>Ingo Böhme</b><br>
             Partner<br>
