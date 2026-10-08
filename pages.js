@@ -123,7 +123,7 @@ const pages = {
 </div>
     `,
     "services": `
-<h1>@<br>your<br>service</h1>
+<h1>At<br>your<br>service</h1>
 
 <section class="grid">
     <div class="grid-cell">
@@ -143,7 +143,7 @@ const pages = {
     <div class="grid-cell">
         <h2>Data Engineering</h2>
         <p>
-            At the heart of AI is data. Most uses cases in business intelligence and automation surprisingly don't need "AI" in the modern sense but actually require classic methods of data science.
+            At the heart of AI is data. Most use cases in business intelligence and automation surprisingly don't need "AI" in the modern sense but actually require classic methods of data science.
         </p>
     </div>
 
@@ -164,7 +164,7 @@ const pages = {
 </section>
     `,
     "tools": `
-<h1>we<br>make<br>things</h1>
+<h1>We<br>make<br>things</h1>
 
 <section class="grid">
     <div class="grid-cell">
