@@ -133,14 +133,14 @@ const pages = {
     <div class="grid-cell">
         <h2><a href="https://grokipedia.com/page/AI_Engineering" target="_blank" rel="noopener noreferrer">AI Engineering</a></h2>
         <p>
-            We don't just use AI to build software, we also build software that uses AI: intelligent features and user interfaces that unlock new types of products, services and business models.
+            We don't just use AI to build software. We also build software that uses AI: intelligent features and user interfaces that allow for totally new types of products, services and business models.
         </p>
     </div>
 
     <div class="grid-cell">
         <h2><a href="https://grokipedia.com/page/Data_engineering" target="_blank" rel="noopener noreferrer">Data Engineering</a></h2>
         <p>
-            The heart of AI is data. Many use cases in business intelligence and automation actually don't need modern "AI" but classic data science, which typically fails at step one: Getting the data.
+            At the heart of AI is data. Many business intelligence- and automation use cases really don't need modern "AI" but classic data science, which typically fails at step one: Getting the data.
         </p>
     </div>
 
