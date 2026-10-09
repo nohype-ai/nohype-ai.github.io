@@ -9,6 +9,7 @@ const pages = {
         AI · Architecture · Apple
     </a>
 </h2>
+<br>
 <h2>
     How?<br>
     <a href="#services">
@@ -58,8 +59,9 @@ const pages = {
 
 <div style="display: flex; gap: 80px; align-items: start; flex-wrap: wrap;">
     <div style="max-width: 250px; text-align: center;">
-        <a href="people/manuela-cv.pdf" target="_blank"><img src="people/manuela.jpg" alt="Manuela Hebel" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
-        <p>
+        <a href="people/manuela-cv.pdf" target="_blank">
+            <img src="people/manuela.jpg" alt="Manuela Hebel" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        </a>
             <h2>Manuela Hebel</h2>
             Partner<br>
             Data & Product Strategy<br>
@@ -75,11 +77,9 @@ const pages = {
                     <img src="icons/linkedin.svg" alt="LinkedIn" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
                 </a>-->
             </span>
-        </p>
     </div>
     <div style="max-width: 250px; text-align: center;">
         <a href="people/sebastian-cv.pdf" target="_blank"><img src="people/sebastian.jpg" alt="Sebastian Fichtner" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
-        <p>
             <h2>Sebastian Fichtner</h2>
             Founder<br>
             AI, Architecture, Apple<br>
@@ -95,11 +95,9 @@ const pages = {
                     <img src="icons/github.svg" alt="GitHub" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
                 </a>-->
             </span>
-        </p>
     </div>
     <div style="max-width: 250px; text-align: center;">
         <a href="people/ingo-cv.pdf" target="_blank"><img src="people/ingo.jpg" alt="Ingo Böhme" style="max-width: 200px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
-        <p>
             <h2>Ingo Böhme</h2>
             Partner<br>
             AI & Apple Engineering<br>
@@ -115,7 +113,6 @@ const pages = {
                     <img src="icons/twitter-x.svg" alt="X" style="width: 32px; height: 32px; vertical-align: middle; filter: invert(1) brightness(0.5);">
                 </a>-->
             </span>
-        </p>
     </div>
 </div>
     `,

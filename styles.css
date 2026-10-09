@@ -150,7 +150,7 @@ nav img:hover {
 h1 {
     /* zero top margin for consistent predictable layout*/
     margin-top:0;
-    margin-bottom: 5rem;
+    margin-bottom: calc(2 * var(--site-padding));
     font-family: 'Literata', 'Satoshi', serif;
     font-weight: 300;
     font-optical-sizing: auto;
@@ -162,7 +162,8 @@ h2 {
     font-family: 'Literata', 'Satoshi', serif;
     font-weight: 500;
     font-size: 1.6rem;
-    margin-bottom:0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 /* links */
