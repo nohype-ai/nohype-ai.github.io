@@ -123,7 +123,7 @@ const pages = {
     <div class="grid-cell">
         <h2><a href="https://grokipedia.com/page/Agentic_Engineering" target="_blank" rel="noopener noreferrer">Agentic Engineering</a></h2>
         <p>
-            We don't "vibe code" products. Our AI-driven development process is built from engineering discipline. So we sustain quality, maintainability, and an incredible pace over the long term.
+            We don't "vibe code" products. Our AI-driven development process is built from engineering discipline. So we sustain quality, maintainability, and an incredible pace even over the long term.
         </p>
     </div>
 
@@ -152,7 +152,7 @@ const pages = {
     <div class="grid-cell">
         <h2><a href="https://developer.apple.com/machine-learning" target="_blank" rel="noopener noreferrer">Apple Engineering</a></h2>
         <p>
-            Apple platforms are excellent at local AI. And we are excellent at developing for Apple platforms. We build state of the art iOS/macOS applications, including remote- and local AI features.
+            Apple platforms are excellent at local AI. And we are excellent at developing for Apple platforms. We build state of the art iOS & macOS applications, including remote- and local AI features.
         </p>
     </div>
 </section>
