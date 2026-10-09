@@ -7,6 +7,7 @@
     --accent-color: #fed800;
     --site-padding: 32px;
     --grid-column-min-width: 18rem;
+    --grid-column-max-width: 27rem;
 }
 
 /* fonts */
@@ -105,9 +106,28 @@ nav img:hover {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(var(--grid-column-min-width), 1fr));
+    /* the floor is at least a third of this grid, so a fourth track cannot fit.
+       1fr shares the width up to the grid's max-width. */
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            min(
+                100%,
+                max(
+                    var(--grid-column-min-width),
+                    calc(
+                        (100% - 2 * var(--site-padding)) / 3
+                    )
+                )
+            ),
+            1fr
+        )
+    );
     gap: var(--site-padding);
     min-width: 0;
+    max-width: calc(
+        3 * var(--grid-column-max-width) + 2 * var(--site-padding)
+    );
 }
 
 .grid-cell {
