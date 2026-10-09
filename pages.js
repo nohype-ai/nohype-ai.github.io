@@ -137,7 +137,7 @@ const pages = {
     <div class="grid-cell">
         <h2><a href="https://grokipedia.com/page/Data_engineering" target="_blank" rel="noopener noreferrer">Data Engineering</a></h2>
         <p>
-            At the heart of AI is data. Many business intelligence- and automation use cases really don't call for modern "AI" but for classic data science, which typically fails at step one: Getting the data.
+            At the heart of AI is data. Many business intelligence- and automation use cases really don't call for modern "AI" but for classic data science, which typically fails at step one: Providing the data.
         </p>
     </div>
 
