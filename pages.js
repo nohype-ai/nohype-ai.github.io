@@ -140,7 +140,7 @@ const pages = {
     <div class="grid-cell">
         <h2><a href="https://grokipedia.com/page/Data_engineering" target="_blank" rel="noopener noreferrer">Data Engineering</a></h2>
         <p>
-            At the heart of AI is data. Many use cases in business intelligence and automation surprisingly don't need modern "AI" but require classic data science which is typically blocked by data availability.
+            The heart of AI is data. Many use cases in business intelligence and automation actually don't need modern "AI" but classic data science, which typically fails at step one: Getting the data.
         </p>
     </div>
 
@@ -155,7 +155,7 @@ const pages = {
     <div class="grid-cell">
         <h2><a href="https://developer.apple.com/machine-learning" target="_blank" rel="noopener noreferrer">Apple Engineering</a></h2>
         <p>
-            Apple platforms are excellent at local AI. And we are excellent at developing for Apple platforms. We build state of the art iOS and macOS applications, including remote- and local AI features.
+            Apple platforms are excellent at local AI. And we are excellent at developing for Apple platforms. We build state of the art iOS/macOS applications, including remote- and local AI features.
         </p>
     </div>
 </section>
